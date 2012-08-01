@@ -1,0 +1,5 @@
+name: RankUp
+version: 1
+main: me.BlockCat.RankUp.RankUp
+commands:
+    rankup:
