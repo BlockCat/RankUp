@@ -52,7 +52,7 @@ public class Checker {
 
 
 		if (RankUp.economy.has(player.getName(),cost)) {
-			RankUp.economy.depositPlayer(player.getName(), cost);
+			RankUp.economy.withdrawPlayer(player.getName(), cost);
 			player.sendMessage(ChatColor.RED + "You have been promoted to: "+ ChatColor.GOLD + group);
 			RankUp.permission.playerAddGroup(player, group);
 
